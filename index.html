@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanted Poster Maker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Wanted Poster Maker</h1>
+    </header>
+    <main>
+      <div class="main-container">
+        <div class="wanted-poster">
+            <div class="charachter-column">
+                <h2>Wanted</h2>
+                <div class="charachter-box" id="charachterBox">
+                  <img src="" alt="Charachter">
+                </div>
+                <p>Dead or Alive</p>
+                <div class="name-box" id="nameBox"></div>
+                <div class="bounty-box">
+                  <p>Beri<span id="bounty-amount">0</span></p>
+                </div>
+            </div>
+
+            <div class="options-column">
+                    <div class="caution">Caution:</div>
+
+                    <div class="option potion-box">
+                      <h3>Devil Potion</h3>
+                      <img src="" alt="devil potion">
+                    </div>
+                
+                    <div class="option weapon-box">
+                      <h3>Weapon</h3>
+                      <img src="" alt="devil potion">
+                    </div>
+
+                    <div class="option animal-box">
+                      <h3>Criminal Animal</h3>
+                      <img src="" alt="criminal animal">
+                    </div>
+            </div>
+        </div>
+        <div class="input-container">
+            <label for="nameInput">Name:</label>
+            <input type="text" id="nameInput" placeholder="Enter your name">
+
+            <label for="gender">Gender:</label>
+            <select id="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+
+            <label for="potion">Devil potion:</label>
+            <select id="potion">
+              <option value="Fire Potion">Fire Potion</option>
+              <option value="Water Potion">Water Potion</option>
+              <option value="Wind Potion">Wind Potion</option>
+              <option value="Gravity Potion">Gravity Potion</option>
+            </select>
+
+            <label for="weapon">Weapon</label>
+            <select id="weapon">
+              <option value="Cross">Doom Cross</option>
+              <option value="Dagger 0">Fire Dagger</option>
+              <option value="Dagger 1">Claw Dagger</option>
+              <option value="Eye Of Life">Eye Of Life</option>
+              <option value="Gun 0">Whirl Pistol</option>
+              <option value="Gun 1">Lilith</option>
+              <option value="Hammer">Skull Eater</option>
+              <option value="Lamp">Genie Lamp</option>
+              <option value="Resurrection bell">Resurrection Bell</option>
+            </select>
+
+            <label for= "criminal animal">Criminal Animal</label>
+            <select id="criminal animal">
+              <option value="Monkey">Monkey</option>
+              <option value="Dog">Dog</option>
+              <option value="Crow">Crow</option>
+            </select>
+        </div>
+      </div> 
+      
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
